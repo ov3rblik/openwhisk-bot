@@ -1,0 +1,721 @@
+{
+  "name": "Namebot",
+  "created": "2017-08-02T14:26:14.502Z",
+  "intents": [
+    {
+      "intent": "greetings",
+      "created": "2017-12-14T23:36:06.907Z",
+      "updated": "2017-12-14T23:36:16.969Z",
+      "examples": [
+        {
+          "text": "hi",
+          "created": "2017-12-14T23:36:08.423Z",
+          "updated": "2017-12-14T23:36:08.423Z"
+        },
+        {
+          "text": "hello",
+          "created": "2017-12-14T23:36:09.959Z",
+          "updated": "2017-12-14T23:36:09.959Z"
+        },
+        {
+          "text": "yo",
+          "created": "2017-12-14T23:36:10.930Z",
+          "updated": "2017-12-14T23:36:10.930Z"
+        },
+        {
+          "text": "what's up",
+          "created": "2017-12-14T23:36:12.204Z",
+          "updated": "2017-12-14T23:36:12.204Z"
+        },
+        {
+          "text": "hey",
+          "created": "2017-12-14T23:36:13.538Z",
+          "updated": "2017-12-14T23:36:13.538Z"
+        },
+        {
+          "text": "howdy",
+          "created": "2017-12-14T23:36:15.307Z",
+          "updated": "2017-12-14T23:36:15.307Z"
+        },
+        {
+          "text": "hola",
+          "created": "2017-12-14T23:36:16.969Z",
+          "updated": "2017-12-14T23:36:16.969Z"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "thanks",
+      "created": "2017-12-14T23:36:41.428Z",
+      "updated": "2017-12-14T23:36:49.767Z",
+      "examples": [
+        {
+          "text": "thank you",
+          "created": "2017-12-14T23:36:43.359Z",
+          "updated": "2017-12-14T23:36:43.359Z"
+        },
+        {
+          "text": "you're awesome",
+          "created": "2017-12-14T23:36:45.936Z",
+          "updated": "2017-12-14T23:36:45.936Z"
+        },
+        {
+          "text": "thx",
+          "created": "2017-12-14T23:36:47.321Z",
+          "updated": "2017-12-14T23:36:47.321Z"
+        },
+        {
+          "text": "you da best",
+          "created": "2017-12-14T23:36:49.767Z",
+          "updated": "2017-12-14T23:36:49.767Z"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "change_name",
+      "created": "2017-12-14T23:26:54.741Z",
+      "updated": "2017-12-14T23:34:01.180Z",
+      "examples": [
+        {
+          "text": "change my name",
+          "created": "2017-12-14T23:26:58.397Z",
+          "updated": "2017-12-14T23:26:58.397Z"
+        },
+        {
+          "text": "i want you to call me something else",
+          "created": "2017-12-14T23:27:03.568Z",
+          "updated": "2017-12-14T23:27:03.568Z"
+        },
+        {
+          "text": "call me bob",
+          "created": "2017-12-14T23:27:07.096Z",
+          "updated": "2017-12-14T23:27:07.096Z"
+        },
+        {
+          "text": "call me teresa",
+          "created": "2017-12-14T23:27:10.963Z",
+          "updated": "2017-12-14T23:27:10.963Z"
+        },
+        {
+          "text": "i'm not lisa anymore now i'm patricia",
+          "created": "2017-12-14T23:27:27.205Z",
+          "updated": "2017-12-14T23:27:27.205Z"
+        },
+        {
+          "text": "i don't want to be called fred",
+          "created": "2017-12-14T23:30:33.261Z",
+          "updated": "2017-12-14T23:30:33.261Z"
+        },
+        {
+          "text": "that's not my real name",
+          "created": "2017-12-14T23:34:01.180Z",
+          "updated": "2017-12-14T23:34:01.180Z"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "farewells",
+      "created": "2017-12-14T23:36:24.808Z",
+      "updated": "2017-12-14T23:36:36.785Z",
+      "examples": [
+        {
+          "text": "bye",
+          "created": "2017-12-14T23:36:26.274Z",
+          "updated": "2017-12-14T23:36:26.274Z"
+        },
+        {
+          "text": "goodbye",
+          "created": "2017-12-14T23:36:27.735Z",
+          "updated": "2017-12-14T23:36:27.735Z"
+        },
+        {
+          "text": "c ya",
+          "created": "2017-12-14T23:36:29.692Z",
+          "updated": "2017-12-14T23:36:29.692Z"
+        },
+        {
+          "text": "see you later",
+          "created": "2017-12-14T23:36:31.169Z",
+          "updated": "2017-12-14T23:36:31.169Z"
+        },
+        {
+          "text": "ttyl",
+          "created": "2017-12-14T23:36:32.658Z",
+          "updated": "2017-12-14T23:36:32.658Z"
+        },
+        {
+          "text": "farewell",
+          "created": "2017-12-14T23:36:35.125Z",
+          "updated": "2017-12-14T23:36:35.125Z"
+        },
+        {
+          "text": "peace out",
+          "created": "2017-12-14T23:36:36.785Z",
+          "updated": "2017-12-14T23:36:36.785Z"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "off_topic",
+      "created": "2017-12-14T23:32:44.817Z",
+      "updated": "2017-12-14T23:33:39.105Z",
+      "examples": [
+        {
+          "text": "order a pizza",
+          "created": "2017-12-14T23:32:47.246Z",
+          "updated": "2017-12-14T23:32:47.246Z"
+        },
+        {
+          "text": "what's the weather",
+          "created": "2017-12-14T23:32:49.383Z",
+          "updated": "2017-12-14T23:32:49.383Z"
+        },
+        {
+          "text": "are you married",
+          "created": "2017-12-14T23:32:51.441Z",
+          "updated": "2017-12-14T23:32:51.441Z"
+        },
+        {
+          "text": "when is the next iphone coming out?",
+          "created": "2017-12-14T23:32:58.856Z",
+          "updated": "2017-12-14T23:32:58.856Z"
+        },
+        {
+          "text": "what's ur fav color",
+          "created": "2017-12-14T23:33:02.176Z",
+          "updated": "2017-12-14T23:33:02.176Z"
+        },
+        {
+          "text": "how come birds don't fly underwater",
+          "created": "2017-12-14T23:33:07.634Z",
+          "updated": "2017-12-14T23:33:07.634Z"
+        },
+        {
+          "text": "eggplant",
+          "created": "2017-12-14T23:33:16.144Z",
+          "updated": "2017-12-14T23:33:16.144Z"
+        },
+        {
+          "text": "dlkjslkjgsd",
+          "created": "2017-12-14T23:33:18.912Z",
+          "updated": "2017-12-14T23:33:18.912Z"
+        },
+        {
+          "text": "computer time",
+          "created": "2017-12-14T23:33:24.671Z",
+          "updated": "2017-12-14T23:33:24.671Z"
+        },
+        {
+          "text": "take out the trash and then go to ur room!",
+          "created": "2017-12-14T23:33:39.105Z",
+          "updated": "2017-12-14T23:33:39.105Z"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "whats_my_name",
+      "created": "2017-12-14T23:25:58.932Z",
+      "updated": "2017-12-14T23:26:12.074Z",
+      "examples": [
+        {
+          "text": "what's my name",
+          "created": "2017-12-14T23:26:02.009Z",
+          "updated": "2017-12-14T23:26:02.009Z"
+        },
+        {
+          "text": "name",
+          "created": "2017-12-14T23:26:03.618Z",
+          "updated": "2017-12-14T23:26:03.618Z"
+        },
+        {
+          "text": "tell me who i am",
+          "created": "2017-12-14T23:26:05.598Z",
+          "updated": "2017-12-14T23:26:05.598Z"
+        },
+        {
+          "text": "who am i",
+          "created": "2017-12-14T23:26:06.909Z",
+          "updated": "2017-12-14T23:26:06.909Z"
+        },
+        {
+          "text": "what is it that people call me",
+          "created": "2017-12-14T23:26:12.074Z",
+          "updated": "2017-12-14T23:26:12.074Z"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "insults",
+      "created": "2017-12-14T23:37:03.753Z",
+      "updated": "2017-12-14T23:37:22.805Z",
+      "examples": [
+        {
+          "text": "you suck",
+          "created": "2017-12-14T23:37:05.584Z",
+          "updated": "2017-12-14T23:37:05.584Z"
+        },
+        {
+          "text": "i hate you",
+          "created": "2017-12-14T23:37:07.191Z",
+          "updated": "2017-12-14T23:37:07.191Z"
+        },
+        {
+          "text": "you're dumb",
+          "created": "2017-12-14T23:37:09.664Z",
+          "updated": "2017-12-14T23:37:09.664Z"
+        },
+        {
+          "text": "why can't you do anything else",
+          "created": "2017-12-14T23:37:14.291Z",
+          "updated": "2017-12-14T23:37:14.291Z"
+        },
+        {
+          "text": "are you stupid?",
+          "created": "2017-12-14T23:37:17.361Z",
+          "updated": "2017-12-14T23:37:17.361Z"
+        },
+        {
+          "text": "shut up",
+          "created": "2017-12-14T23:37:20.739Z",
+          "updated": "2017-12-14T23:37:20.739Z"
+        },
+        {
+          "text": "go away",
+          "created": "2017-12-14T23:37:22.805Z",
+          "updated": "2017-12-14T23:37:22.805Z"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "updated": "2017-12-15T15:39:02.495Z",
+  "entities": [
+    {
+      "entity": "sys-person",
+      "values": [],
+      "created": "2017-12-14T22:52:24.435Z",
+      "updated": "2017-12-14T22:52:24.435Z",
+      "metadata": null,
+      "description": null
+    },
+    {
+      "entity": "sys-currency",
+      "values": [],
+      "created": "2017-12-14T22:52:24.435Z",
+      "updated": "2017-12-14T22:52:24.435Z",
+      "metadata": null,
+      "description": null
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "created": "2017-12-14T22:52:24.435Z",
+      "updated": "2017-12-14T22:52:24.435Z",
+      "metadata": null,
+      "description": null
+    },
+    {
+      "entity": "sys-percentage",
+      "values": [],
+      "created": "2017-12-14T22:52:24.435Z",
+      "updated": "2017-12-14T22:52:24.435Z",
+      "metadata": null,
+      "description": null
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "created": "2017-12-14T22:52:24.435Z",
+      "updated": "2017-12-14T22:52:24.435Z",
+      "metadata": null,
+      "description": null
+    },
+    {
+      "entity": "sys-location",
+      "values": [],
+      "created": "2017-12-14T22:52:24.435Z",
+      "updated": "2017-12-14T22:52:24.435Z",
+      "metadata": null,
+      "description": null
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "created": "2017-12-14T22:52:24.435Z",
+      "updated": "2017-12-14T22:52:24.435Z",
+      "metadata": null,
+      "description": null
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2017-05-26"
+    }
+  },
+  "description": "A bot that remembers your name",
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "title": null,
+      "output": {},
+      "parent": "slot_11_1513294127495",
+      "context": null,
+      "created": "2017-12-14T23:28:48.155Z",
+      "updated": "2017-12-14T23:28:48.155Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": null,
+      "event_name": "focus",
+      "description": null,
+      "dialog_node": "handler_13_1513294127495",
+      "previous_sibling": "handler_12_1513294127495"
+    },
+    {
+      "type": "event_handler",
+      "title": null,
+      "output": null,
+      "parent": "slot_11_1513294127495",
+      "context": null,
+      "created": "2017-12-14T23:28:47.924Z",
+      "updated": "2017-12-14T23:28:47.924Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": null,
+      "event_name": "input",
+      "description": null,
+      "dialog_node": "handler_12_1513294127495",
+      "previous_sibling": null
+    },
+    {
+      "type": "response_condition",
+      "title": null,
+      "output": {
+        "text": {
+          "values": []
+        }
+      },
+      "parent": "node_1_1504218229578",
+      "context": null,
+      "created": "2017-11-09T21:09:01.721Z",
+      "updated": "2017-11-16T17:15:50.078Z",
+      "disabled": true,
+      "metadata": null,
+      "next_step": null,
+      "conditions": "",
+      "description": null,
+      "dialog_node": "node_7_1510261741471",
+      "previous_sibling": "slot_1_1513293624175"
+    },
+    {
+      "type": "slot",
+      "title": null,
+      "output": {},
+      "parent": "node_1_1504218229578",
+      "context": null,
+      "created": "2017-12-14T23:20:24.466Z",
+      "updated": "2017-12-14T23:22:59.508Z",
+      "metadata": {},
+      "variable": "$name",
+      "next_step": null,
+      "conditions": null,
+      "description": null,
+      "dialog_node": "slot_1_1513293624175",
+      "previous_sibling": null
+    },
+    {
+      "type": "slot",
+      "title": null,
+      "output": null,
+      "parent": "node_7_1513294096714",
+      "context": null,
+      "created": "2017-12-14T23:28:47.690Z",
+      "updated": "2017-12-14T23:28:47.690Z",
+      "metadata": null,
+      "variable": null,
+      "next_step": null,
+      "conditions": null,
+      "description": null,
+      "dialog_node": "slot_11_1513294127495",
+      "previous_sibling": null
+    },
+    {
+      "type": "event_handler",
+      "title": null,
+      "output": {
+        "text": {
+          "values": [
+            "Okay... but really, what's your name?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_1_1513293624175",
+      "context": null,
+      "created": "2017-12-14T23:22:19.051Z",
+      "updated": "2017-12-14T23:23:00.541Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": null,
+      "event_name": "nomatch",
+      "description": null,
+      "dialog_node": "handler_5_1513293712408",
+      "previous_sibling": "handler_4_1513293712408"
+    },
+    {
+      "type": "event_handler",
+      "title": null,
+      "output": {
+        "text": {
+          "values": [
+            "Okay, I'll remember your name is @sys-person."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_1_1513293624175",
+      "context": null,
+      "created": "2017-12-14T23:22:18.826Z",
+      "updated": "2017-12-14T23:23:00.329Z",
+      "metadata": null,
+      "next_step": null,
+      "conditions": null,
+      "event_name": "filled",
+      "description": null,
+      "dialog_node": "handler_4_1513293712408",
+      "previous_sibling": "handler_2_1513293624175"
+    },
+    {
+      "type": "event_handler",
+      "title": null,
+      "output": {},
+      "parent": "slot_1_1513293624175",
+      "context": {
+        "name": "@sys-person"
+      },
+      "created": "2017-12-14T23:20:24.713Z",
+      "updated": "2017-12-14T23:23:00.108Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "@sys-person",
+      "event_name": "input",
+      "description": null,
+      "dialog_node": "handler_2_1513293624175",
+      "previous_sibling": "handler_3_1513293624175"
+    },
+    {
+      "type": "event_handler",
+      "title": null,
+      "output": {
+        "text": "What's your name?"
+      },
+      "parent": "slot_1_1513293624175",
+      "context": null,
+      "created": "2017-12-14T23:20:24.951Z",
+      "updated": "2017-12-14T23:22:59.807Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": null,
+      "event_name": "focus",
+      "description": null,
+      "dialog_node": "handler_3_1513293624175",
+      "previous_sibling": null
+    },
+    {
+      "type": "standard",
+      "title": "Change the user's name",
+      "output": {},
+      "parent": null,
+      "context": {
+        "name": null
+      },
+      "created": "2017-12-14T23:28:16.983Z",
+      "updated": "2017-12-14T23:31:35.533Z",
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1504218229578"
+      },
+      "conditions": "#change_name",
+      "digress_in": "does_not_return",
+      "description": null,
+      "dialog_node": "node_7_1513294096714",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_6_1513294065574"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "text": {
+          "values": [
+            "Sorry, I only know how to remember your name!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": null,
+      "created": "2017-08-02T14:27:46.006Z",
+      "updated": "2017-12-15T15:39:02.495Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "anything_else",
+      "digress_in": "does_not_return",
+      "description": null,
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_4_1513294779592"
+    },
+    {
+      "type": "standard",
+      "title": "Greetings",
+      "output": {
+        "text": {
+          "values": [
+            "Hey, $name."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": null,
+      "created": "2017-12-14T23:38:19.030Z",
+      "updated": "2017-12-14T23:38:38.003Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "#greetings",
+      "description": null,
+      "dialog_node": "node_1_1513294698786",
+      "previous_sibling": "node_1_1504218229578"
+    },
+    {
+      "type": "standard",
+      "title": "Insults",
+      "output": {
+        "text": {
+          "values": [
+            "☹️"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": null,
+      "created": "2017-12-14T23:39:11.910Z",
+      "updated": "2017-12-14T23:39:29.820Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "#insults",
+      "description": null,
+      "dialog_node": "node_3_1513294751664",
+      "previous_sibling": "node_7_1513294096714"
+    },
+    {
+      "type": "standard",
+      "title": "Farewells",
+      "output": {
+        "text": {
+          "values": [
+            "Later, $name."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": null,
+      "created": "2017-12-14T23:39:39.849Z",
+      "updated": "2017-12-14T23:39:53.023Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "#farewells",
+      "description": null,
+      "dialog_node": "node_4_1513294779592",
+      "previous_sibling": "node_2_1513294724123"
+    },
+    {
+      "type": "standard",
+      "title": "Thanks",
+      "output": {
+        "text": {
+          "values": [
+            "You're welcome, $name."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": null,
+      "created": "2017-12-14T23:38:44.357Z",
+      "updated": "2017-12-14T23:39:07.072Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "#thanks",
+      "description": null,
+      "dialog_node": "node_2_1513294724123",
+      "previous_sibling": "node_3_1513294751664"
+    },
+    {
+      "type": "standard",
+      "title": "Say the user's name",
+      "output": {
+        "text": {
+          "values": [
+            "You're $name."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": null,
+      "created": "2017-12-14T23:27:45.824Z",
+      "updated": "2017-12-14T23:28:13.525Z",
+      "metadata": {},
+      "next_step": null,
+      "conditions": "#whats_my_name",
+      "description": null,
+      "dialog_node": "node_6_1513294065574",
+      "previous_sibling": "node_1_1513294698786"
+    },
+    {
+      "type": "frame",
+      "title": "Learn the user's name",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": null,
+      "created": "2017-08-31T22:23:49.742Z",
+      "updated": "2017-12-14T23:27:42.241Z",
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": null,
+      "conditions": "NOT $name",
+      "digress_in": "does_not_return",
+      "description": null,
+      "dialog_node": "node_1_1504218229578",
+      "digress_out": "allow_all",
+      "previous_sibling": null,
+      "digress_out_slots": "not_allowed"
+    }
+  ],
+  "workspace_id": "7a06c72d-4045-456f-adf7-ec5d1e730625",
+  "counterexamples": [],
+  "learning_opt_out": false
+}
